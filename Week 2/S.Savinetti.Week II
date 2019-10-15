@@ -1,0 +1,68 @@
+Savinetti Simone 10542075							Week A. II 15.10.2019
+
+
+	CONVECTIVE HEAT TRANSFER
+
+As conveniently expressed by Newton’s law of cooling, the rate of convection heat transfer is observed to be proportional to the temperature difference. Newton’s law states that: 
+
+The rate of heat loss of a body is directly proportional to the difference in the temperatures between the body and its surroundings provided the temperature difference is small and the nature of radiating surface remains same.
+
+				Q̇ conv= (Ts-Tx)/Rconv  [W]
+
+				Rconv=1/(h*As)
+
+				Q̇ = h*As*ΔT
+				where 
+				q is the local heat flux density [W.m-2]
+				h is the heat transfer coefficient [W.m-2.K]
+				ΔT is the temperature difference [K]
+Note that, ΔT is given by the surface or wall temperature, T wall and the bulk temperature, T∞, which is the temperature of the fluid sufficiently far from the surface.
+
+
+ 
+
+Elecrtical Analogy
+	Rtotal=R conv1 + Rwall + Rconv2 = 1/(h,*A) + 1/(K*A) + 1/(h,,*A) 	[°C/W)
+According to this relation, it’s possible to say that the temperature drop through a surface is proportional to its thermal resistance.
+	2.
+
+
+
+
+	Solve the same problem as that of double pane window with the air-gap thickness of 13 mm and glass thickness of 6 mm, comment on your results and explain why we have an optimal range for the air-gap's distance. Consider a 0.8-m-high and 1.5-m-wide double-pane window consisting of two4-mm-thick layers of glass (k=0.78 W/m.°C) separated by a 10-mm-widestagnant air space (k=0.026 W/m.°C). 
+
+
+	
+Rconv1 = 1/(H*A)= 1/(10 W/(m^''°C)*1,2 m'') = 0,0833°C/W
+Rglass 1,2= l/(K*A)= 0,006/(0,78 W/(m^''°C)*1,2 m'') = 0,0064°C/W
+Rair1,2= l/(K*A)= 0,013/(0,026 W/(m^''°C)*1,2 m'') = 0,416°C/W
+Rconv2 = 1/(H*A)= 1/(40 W/(m^''°C)*1,2 m'') = 0,0208°C/W
+Rtotal=R conv1 + Rglass1 + Rair + Rglass2 + Rconv2= 0.5265°C/W
+
+Determine the steady rate of heat transfer through this double-pane window and the temperature of its inner surface.
+Q̇ conv= (Ts-Tx)/Rconv  = (20°C-(-10),)/(0,5265°C/W) =56,98 W
+
+
+Q̇ conv= (Ts-Tx)/Rconv  = (20°C-T,)/(0,0833°C/W) ;
+56,98 W = (20°C-T,)/(0,0833°C/W);
+56,98 W * 0,0833 °C/ W = 20°C – T 1
+T1 = ( 20 – 4.74 ) °C
+T1 = 15.25 °C
+
+
+Q̇ glass1 = (Ts-Tx)/Rconv  = (15.25°C-T,,)/(0,0064°C/W) ;
+56,98 W = (15.25°C-T,)/(0,0064°C/W);
+56,98 W * 0,0064 °C/ W = 15,25°C – T 1
+T1 = (15,25 – 0,364 ) °C
+T1 = 14.89 °C
+Q̇ wall = (Ts-Tx)/Rconv  = (14,89°C-T,,,)/(0,416°C/W) ;
+56,98 W = (14,89°C-T,)/(0,416°C/W);
+56,98 W * 0,416 °C/ W = 14,89°C – T 1
+T1 = (14,89 – 23,70 ) °C
+T1 = -8.81 °C
+Q̇ glass2 = (Ts-Tx)/Rconv  = (-8.81 °C-T,,,,)/(0,0064°C/W) ;
+56,98 W = (-8,81°C-T,)/(0,0064°C/W);
+56,98 W * 0,0064 °C/ W = -8,81°C – T 1
+T1 = (-8,81 – 0,364 ) °C
+T1 = -9.17 °C
+
